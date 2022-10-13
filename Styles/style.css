@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #0D192C;
+    font-family: "Outfit";
+}
+
+.main-container {
+    max-width: 36rem;
+    border-radius: 1.5rem;
+    background-color: #15263F;
+    margin: 4.8rem auto;
+    padding: 2.4rem;
+}
+
+.img-box {
+    position: relative;
+}
+
+.img-box:hover .fa-eye, .img-box:hover .square{
+    display: block;
+    cursor: pointer;
+}
+
+.img {
+    max-width: 100%;
+    height: 100%rem;
+    margin: 0 auto;
+}
+
+.fa-eye {
+    font-size: 4.8rem;
+    color: #ffffff;
+    position: absolute;
+    left: 12.7rem;
+    top: 12.7rem;
+    display: none;
+    z-index: 2;
+}
+
+
+.img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.8rem;
+    z-index: -1;
+}
+
+.square {
+    width: 100%;
+    height: 99%;
+    background-color: #00FFF8;
+    opacity: 0.5;
+    border-radius: 0.8rem;
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    z-index: 1;
+    display: none;
+}
+
+.description {
+    margin: 2.4rem auto;
+    max-width: 30.2rem;
+}
+
+.description h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.description h1:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
+
+.description p {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    font-weight: 300;
+    color: #8BACD9;
+    margin-top: 2.4rem;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.4rem;
+}
+
+.details .price {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #00FFF8;
+}
+
+.fa-ethereum {
+    margin-right: 0.6rem;
+}
+
+.details .left {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #8BACD9;
+}
+
+.fa-clock {
+    margin-right: 0.6rem;
+}
+
+.line {
+    max-width: 30.2rem;
+    height: 1px;
+    background-color: #2E405A;
+    margin: 2.4rem auto;
+}
+
+.credits {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    max-width: 3.3rem;
+    border-radius: 50%;
+    border: 1px solid #FfFFFF;
+    margin-right: 1.6rem;
+}
+
+.avatar img {
+    width: 100%;
+}
+
+.creat, .name {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.creat {
+    color: #8BACD9;
+    margin-right: 0.6rem;
+}
+
+.name:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
+
